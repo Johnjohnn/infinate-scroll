@@ -54,7 +54,7 @@ function displayPhotos() {
       title: photo.alt_description,
     })
     // Event Listener, Check when eac is finished loading
-    img.addEventListener("load", imagesLoaded );
+    img.addEventListener("load", imageLoaded);
      // Put <img> inside <a>, then put both inside imageContainer Element
      item.appendChild(img);
      imageContainer.appendChild(item);
